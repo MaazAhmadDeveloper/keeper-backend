@@ -11,7 +11,7 @@ dotenv.config(); // Load environment variables
 const app = express();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = "oudsoiudaiosduoa";
-const MONGO_URI = "mongodb+srv://keeper:keeper@keepercluster.etik5.mongodb.net/?retryWrites=true&w=majority&appName=KeeperCluster";
+const MONGO_URI = "mongodb+srv://zubair:zubair@keepercluster.etik5.mongodb.net/?retryWrites=true&w=majority&appName=KeeperCluster";
 // const MONGO_URI = "mongodb://localhost:27017/zubair";
 
 app.use(express.json());
